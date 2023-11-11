@@ -1,0 +1,7 @@
+# khóa ngoại
+    # on_delete=models.CASCADE(): danh mục xóa thì xóa lun khóa học
+    # on_delete=models.NULL(): danh mục xóa thì khóa học sẽ là nll
+    # on_delete=models.RESTRICT(): liên quan khóa thì không được xóa
+
+#auto_now_add: khi thêm đối tượng mới lấy date hiện tại
+#auto_now: update sẽ tự lấy ngày
